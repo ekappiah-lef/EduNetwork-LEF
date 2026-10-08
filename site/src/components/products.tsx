@@ -6,7 +6,7 @@ const products = [
     id: "products",
     kicker: "EduNetwork · School management system",
     name: "One platform for every school operation.",
-    body: "EduNetwork is a web-based school management system that brings admissions, academic records, fees, exams, report cards, timetables and parent communication into one place — with dedicated access for administrators, academic staff, accountants, teachers, parents and students.",
+    body: "EduNetwork is a web-based school management system that brings admissions, academic records, fees, exams, report cards, timetables and parent communication into one place   with dedicated access for administrators, academic staff, accountants, teachers, parents and students.",
     image: "/images/classroom.jpg",
     alt: "A teacher talks with students working on laptops in a bright classroom",
     caption: "Day-to-day administration",

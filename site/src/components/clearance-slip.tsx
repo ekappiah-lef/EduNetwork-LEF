@@ -15,7 +15,7 @@ export type SlipProps = {
 };
 
 /*
-  The clearance slip — the page's signature element. Styled after a printed
+  The clearance slip   the page's signature element. Styled after a printed
   bursary slip: mono record number, ID photo frame, perforated tear edge, stamp.
 */
 export function ClearanceSlip({ recordId, name, role, initials, status, rows, footnote, className, animateStamp }: SlipProps) {

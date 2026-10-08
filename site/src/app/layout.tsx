@@ -23,7 +23,7 @@ const jetbrains = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "EduNetwork & ClearEnroll — School management and clearance verification",
+  title: "EduNetwork & ClearEnroll   School management and clearance verification",
   description:
     "EduNetwork runs everyday school operations. ClearEnroll lets schools verify a student's or teacher's fee clearance before a transfer or admission.",
 };

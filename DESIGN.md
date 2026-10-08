@@ -144,7 +144,7 @@ This design system establishes an institutional yet deeply human EdTech environm
 - **Frictionless & Accessible:** Minimizes cognitive fatigue for educators, registrars, parents, and students through generous spatial rhythm, high legibility, and predictable interaction models.
 
 ### Design Movement: Modern Institutional Glass & Card Architecture
-The visual framework merges crisp corporate SaaS precision with tactile modern cards, subtle background translucency (frosted navigation rails, contextual status banners), refined micro-borders, and generous corner smoothing. The resulting interface feels polished, modern, and enduring across complex academic workflows—from large-scale admissions pipelines to daily grading and attendance logs.
+The visual framework merges crisp corporate SaaS precision with tactile modern cards, subtle background translucency (frosted navigation rails, contextual status banners), refined micro-borders, and generous corner smoothing. The resulting interface feels polished, modern, and enduring across complex academic workflows from large-scale admissions pipelines to daily grading and attendance logs.
 
 ## Colors
 
@@ -183,7 +183,7 @@ Layouts rely on an adaptive 12-column responsive fluid grid structured around an
 - **Mobile (below 768px):** 4 columns with `1rem` margins and `1rem` gutters. Stacks grade summaries, enrollment steps, and data cards vertically into single full-width components.
 
 ### Density Handling
-Complex SIS (Student Information System) pages—such as course registration schedules and batch grading grids—switch dynamically from default card spacing (`space-lg`) to compact spatial mode (`space-xs` and `space-sm`) to increase data density without horizontal scrolling.
+Complex SIS (Student Information System) pages such as course registration schedules and batch grading grids switch dynamically from default card spacing (`space-lg`) to compact spatial mode (`space-xs` and `space-sm`) to increase data density without horizontal scrolling.
 
 ## Elevation & Depth
 

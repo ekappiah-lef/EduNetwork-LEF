@@ -21,7 +21,7 @@ const tours: Tour[] = [
     id: "edunetwork",
     tab: "EduNetwork",
     title: "A school day, run from one place",
-    body: "Recorded in EduNetwork with a demo school of 140 students: records, results, fees and timetables — and the ClearEnroll fee sync built in.",
+    body: "Recorded in EduNetwork with a demo school of 140 students: records, results, fees and timetables   and the ClearEnroll fee sync built in.",
     cta: { label: "Explore EduNetwork", href: "#products" },
     video: "/videos/edunetwork",
     chapters: [
@@ -37,7 +37,7 @@ const tours: Tour[] = [
     id: "clearenroll",
     tab: "ClearEnroll",
     title: "From search to a clear decision",
-    body: "Recorded in ClearEnroll: one student comes back cleared, another flagged with fees still owed — each with the photo on file.",
+    body: "Recorded in ClearEnroll: one student comes back cleared, another flagged with fees still owed   each with the photo on file.",
     cta: { label: "Explore ClearEnroll", href: "#clearenroll" },
     video: "/videos/clearenroll",
     chapters: [

@@ -12,7 +12,7 @@ const roles = ["Administrators", "Academic staff", "Accountants & bursars", "Tea
 export function Hero() {
   return (
     <section id="top" className="-mt-[5.5rem]">
-      {/* Navy, emerald and amber washes blending into one another — the page's colour signature. */}
+      {/* Navy, emerald and amber washes blending into one another   the page's colour signature. */}
       <div className="mesh-hero on-dark relative overflow-hidden text-white">
         <div className="container-page relative grid gap-12 pt-32 pb-14 md:pt-36 lg:grid-cols-12 lg:gap-8 lg:pt-40 lg:pb-16">
           <div className="rise-in min-w-0 lg:col-span-7 lg:pr-6">
@@ -22,7 +22,7 @@ export function Hero() {
             </h1>
             <p className="text-lede mt-6 max-w-[38rem] text-white/80">
               Run admissions, results, fees and timetables in EduNetwork. Before a student or teacher moves schools,
-              check their fee clearance in ClearEnroll — with the photo on file to confirm it&rsquo;s the right person.
+              check their fee clearance in ClearEnroll   with the photo on file to confirm it&rsquo;s the right person.
             </p>
             <div className="mt-9 flex flex-wrap items-center gap-3">
               <ButtonLink href="#products" size="lg" variant="light">

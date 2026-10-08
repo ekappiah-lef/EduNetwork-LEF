@@ -47,7 +47,7 @@ export function DemoSection() {
       return;
     }
     setStatus("sending");
-    // No backend is wired up yet — replace this delay with a POST to your CRM or API route.
+    // No backend is wired up yet   replace this delay with a POST to your CRM or API route.
     await new Promise((r) => setTimeout(r, 900));
     setName(String(data.get("firstName")));
     setStatus("sent");

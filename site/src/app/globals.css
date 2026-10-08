@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 /*
-  EduNetwork design tokens — derived from DESIGN.md ("Academic Vanguard").
+  EduNetwork design tokens   derived from DESIGN.md ("Academic Vanguard").
   Navy anchors, emerald signals progress, amber is reserved for pending balances.
 */
 @theme {
@@ -81,7 +81,7 @@
   }
 }
 
-/* Type scale — headings tighten as they grow, body stays generous. */
+/* Type scale   headings tighten as they grow, body stays generous. */
 @utility text-display {
   font-family: var(--font-display);
   font-weight: 700;
@@ -129,7 +129,7 @@
   }
 }
 
-/* Perforated edge used on the clearance slip — the page's signature element. */
+/* Perforated edge used on the clearance slip   the page's signature element. */
 @utility perforation {
   background-image: radial-gradient(circle at 6px 6px, var(--color-canvas) 4px, transparent 4.5px);
   background-size: 14px 12px;

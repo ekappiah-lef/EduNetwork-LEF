@@ -1,5 +1,5 @@
 const benefits = [
-  ["Verify from inside EduNetwork", "Look up student and teacher clearance records without leaving EduNetwork — it has a ClearEnroll menu built in."],
+  ["Verify from inside EduNetwork", "Look up student and teacher clearance records without leaving EduNetwork   it has a ClearEnroll menu built in."],
   ["See obligations across schools", "Identify students with outstanding fees at other participating institutions."],
   ["Scheduled balance sync", "Outstanding balances are pushed to ClearEnroll on a regular schedule."],
   ["Updates as payments land", "Clearance records change as fee payments are received."],
@@ -15,7 +15,7 @@ const steps = [
   },
   {
     title: "Balance syncs to ClearEnroll",
-    body: "The settled status is sent to ClearEnroll — on schedule, or immediately on payment.",
+    body: "The settled status is sent to ClearEnroll   on schedule, or immediately on payment.",
     meta: "Sync",
   },
   {
@@ -35,7 +35,7 @@ export function Integration() {
             <h2 className="text-h2 mt-4 !text-white">Connected school management. Transparent clearance.</h2>
           </div>
           <p className="text-lede text-navy-300 lg:col-span-5 lg:pt-10">
-            EduNetwork runs operations inside your school. ClearEnroll extends what you know beyond it — so a settled
+            EduNetwork runs operations inside your school. ClearEnroll extends what you know beyond it   so a settled
             balance in one system is a cleared record in the other.
           </p>
         </div>

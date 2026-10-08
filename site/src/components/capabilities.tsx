@@ -51,7 +51,7 @@ export function Capabilities() {
             <Eyebrow>ClearEnroll in detail</Eyebrow>
             <h2 className="text-h2 mt-4">Greater transparency. Better school transitions.</h2>
             <p className="mt-5 text-ink-2">
-              Tools for school administration and financial accountability — built around the moment a student or
+              Tools for school administration and financial accountability   built around the moment a student or
               teacher leaves one school for another.
             </p>
           </div>
