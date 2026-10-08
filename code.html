@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><title>EduNetwork SIS &amp; ClearEnroll Verification</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"secondary-fixed":"#6ffbbe","surface-dim":"#cbdbf5","surface-container-low":"#eff4ff","surface-tint":"#4b5f7d","surface-container-lowest":"#ffffff","tertiary":"#190c00","inverse-on-surface":"#eaf1ff","on-secondary-container":"#00714d","surface-container":"#e5eeff","on-primary-fixed-variant":"#344864","on-secondary-fixed":"#002113","on-secondary":"#ffffff","on-tertiary-fixed":"#2a1700","on-surface-variant":"#44474d","surface-bright":"#f8f9ff","tertiary-container":"#361f00","secondary-fixed-dim":"#4edea3","on-error":"#ffffff","primary-container":"#0f2540","outline":"#74777e","on-primary-container":"#798dad","surface-variant":"#d3e4fe","inverse-surface":"#213145","on-error-container":"#93000a","primary":"#000f25","error":"#ba1a1a","on-secondary-fixed-variant":"#005236","on-surface":"#0b1c30","tertiary-fixed":"#ffddb8","secondary":"#006c49","error-container":"#ffdad6","on-primary-fixed":"#041c37","surface":"#f8f9ff","on-tertiary-fixed-variant":"#653e00","background":"#f8f9ff","primary-fixed-dim":"#b3c8ea","secondary-container":"#6cf8bb","tertiary-fixed-dim":"#ffb95f","on-background":"#0b1c30","on-primary":"#ffffff","on-tertiary-container":"#c27c00","on-tertiary":"#ffffff","primary-fixed":"#d4e3ff","inverse-primary":"#b3c8ea","outline-variant":"#c4c6ce","surface-container-high":"#dce9ff","surface-container-highest":"#d3e4fe"},borderRadius:{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},spacing:{"space-lg":"1.5rem","margin-lg":"3rem","margin":"2rem","space-xs":"0.25rem","space-sm":"0.5rem","space-xl":"2.5rem","gutter":"1.5rem","space-md":"1rem","gutter-sm":"1rem","margin-sm":"1rem"},fontFamily:{"label-sm":["Inter"],"title-md":["Plus Jakarta Sans"],"headline-xl-mobile":["Plus Jakarta Sans"],"headline-xl":["Plus Jakarta Sans"],"body-md":["Inter"],"label-lg":["Inter"],"headline-sm":["Plus Jakarta Sans"],"body-lg":["Inter"],"label-md":["Inter"],"headline-md":["Plus Jakarta Sans"],"body-sm":["Inter"],"headline-lg":["Plus Jakarta Sans"],"headline-lg-mobile":["Plus Jakarta Sans"]},fontSize:{"label-sm":["11px",{"lineHeight":"14px","fontWeight":"600"}],"title-md":["16px",{"lineHeight":"24px","fontWeight":"600"}],"headline-xl-mobile":["28px",{"lineHeight":"36px","fontWeight":"700"}],"headline-xl":["40px",{"lineHeight":"48px","fontWeight":"700"}],"body-md":["14px",{"lineHeight":"22px","fontWeight":"400"}],"label-lg":["14px",{"lineHeight":"20px","fontWeight":"600"}],"headline-sm":["20px",{"lineHeight":"28px","fontWeight":"600"}],"body-lg":["16px",{"lineHeight":"26px","fontWeight":"400"}],"label-md":["12px",{"lineHeight":"16px","fontWeight":"500"}],"headline-md":["24px",{"lineHeight":"32px","fontWeight":"600"}],"body-sm":["12px",{"lineHeight":"18px","fontWeight":"400"}],"headline-lg":["32px",{"lineHeight":"40px","fontWeight":"700"}],"headline-lg-mobile":["24px",{"lineHeight":"32px","fontWeight":"700"}]}}}};</script></head><body class="bg-background font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-container-lowest/90 backdrop-blur-md shadow-[0_1px_8px_rgba(15,37,64,0.06)]"><div class="h-20 max-w-7xl mx-auto px-margin-sm lg:px-margin flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-lg"><a class="flex items-center gap-space-sm focus:outline-none focus:ring-2 focus:ring-primary rounded-lg transition-transform" data-path="home" href="#"><img alt="EduNetwork Brand Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1U2C9Jl1-MwdFvI9nR2TBNokI0F-bn3YaDpBozz5qe-j9bQlfUN5uKN9PPJlQB01TLx4Y6lCv3W4xPZFbbiRENjx4b163vduQ6kJmTjoe39B4_aMpC2kfmdgOnrNQAztwwM-EAGnna2VbuhLVQaZSm9o2cUOwabh-QUOYB9Ap0XK9FBpqXJ7lYopEfWgC1fkJNRyYOAhNFgVIDNAQcGDccCCHpPs3pORTM4KC2uBjXpGQ"/><span class="font-title-md text-title-md text-primary tracking-tight">EduNetwork</span></a></div><nav class="hidden xl:flex items-center gap-space-lg" data-active-classes="text-primary font-label-lg font-bold after:scale-x-100"><a aria-current="page" class="relative py-2 transition-colors after:absolute after:bottom-0 after:left-0 after:right-0 after:h-0.5 after:bg-primary after:transition-transform after:origin-center text-primary font-label-lg font-bold after:scale-x-100" data-path="home" href="#">Home</a><div class="relative group"><a class="inline-flex items-center gap-space-xs py-2 font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="edunetwork-sis" href="#product-breakdown"><span class="">EduNetwork SIS</span><span class="material-symbols-outlined text-[18px] text-outline transition-transform group-hover:rotate-180">expand_more</span></a><div class="absolute top-full left-0 mt-1 w-64 p-space-sm bg-surface-container-lowest rounded-xl shadow-[0_10px_15px_-3px_rgba(15,37,64,0.08),0_4px_6px_-4px_rgba(15,37,64,0.04)] opacity-0 translate-y-2 pointer-events-none group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto transition-all duration-200 z-50 flex flex-col gap-space-xs"><a class="px-space-sm py-2 rounded-lg text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface font-label-md text-label-md transition-colors" data-path="student-information" href="#">Student Records</a><a class="px-space-sm py-2 rounded-lg text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface font-label-md text-label-md transition-colors" data-path="academic-curriculum" href="#">Academic Results &amp; Reports</a><a class="px-space-sm py-2 rounded-lg text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface font-label-md text-label-md transition-colors" data-path="finance-billing" href="#">Fees &amp; Finance</a><a class="px-space-sm py-2 rounded-lg text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface font-label-md text-label-md transition-colors" data-path="timetables" href="#">Timetables &amp; Rosters</a></div></div><div class="relative group"><a class="inline-flex items-center gap-space-xs py-2 font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="clearenroll" href="#clearenroll-details"><span class="">ClearEnroll</span><span class="material-symbols-outlined text-[18px] text-outline transition-transform group-hover:rotate-180">expand_more</span></a><div class="absolute top-full left-0 mt-1 w-64 p-space-sm bg-surface-container-lowest rounded-xl shadow-[0_10px_15px_-3px_rgba(15,37,64,0.08),0_4px_6px_-4px_rgba(15,37,64,0.04)] opacity-0 translate-y-2 pointer-events-none group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto transition-all duration-200 z-50 flex flex-col gap-space-xs"><a class="px-space-sm py-2 rounded-lg text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface font-label-md text-label-md transition-colors" data-path="student-clearance" href="#detailed-features">Student Clearance</a><a class="px-space-sm py-2 rounded-lg text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface font-label-md text-label-md transition-colors" data-path="teacher-verification" href="#detailed-features">Teacher Verification</a><a class="px-space-sm py-2 rounded-lg text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface font-label-md text-label-md transition-colors" data-path="photo-id" href="#detailed-features">Photo ID Confirmation</a><a class="px-space-sm py-2 rounded-lg text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface font-label-md text-label-md transition-colors" data-path="fee-sync" href="#integration-section">EduNetwork Payment Sync</a></div></div><a class="relative py-2 font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="showcase" href="#interactive-showcase">Product Showcase</a><a class="relative py-2 font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="integration" href="#integration-section">Integration</a></nav><div class="flex items-center gap-space-md"><a class="hidden sm:inline-flex py-2 px-space-sm font-label-lg text-label-lg text-on-surface-variant hover:text-primary transition-colors" data-path="client-portal" href="#">Client Portal</a><a class="inline-flex items-center justify-center px-space-md py-2.5 rounded-lg bg-primary text-on-primary font-label-lg text-label-lg shadow-[0_1px_3px_0_rgba(15,37,64,0.05)] hover:bg-primary-container transition-all hover:ring-2 hover:ring-tertiary-fixed-dim/70 active:scale-[0.99]" data-path="book-a-demo" href="#demo-inquiry">Book a Demo</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-background min-h-screen"><div class="flex flex-col w-full">
+<!-- HERO SECTION -->
+<section class="relative w-full overflow-hidden bg-gradient-to-b from-surface-container-low via-background to-background pt-space-xl pb-margin-lg">
+<!-- Ambient decorative glows contained in section -->
+<div class="pointer-events-none absolute -top-24 -left-24 h-96 w-96 rounded-full bg-secondary-fixed/30 blur-3xl"></div>
+<div class="pointer-events-none absolute top-1/4 -right-20 h-96 w-96 rounded-full bg-primary-fixed/40 blur-3xl"></div>
+<div class="max-w-7xl mx-auto px-margin-sm lg:px-margin flex flex-col items-center">
+<!-- Main Headline -->
+<h1 class="text-center max-w-4xl tracking-tight text-primary font-headline-xl text-headline-xl">
+        Smarter School Management. <span class="text-secondary font-headline-xl">Trusted School Verification.</span>
+</h1>
+<!-- Verbatim Supporting Description -->
+<p class="text-center max-w-3xl mt-space-md text-on-surface-variant font-body-lg text-body-lg">
+        Empowering educational institutions with smarter tools to manage school operations, verify fee clearance status, and enable transparent student and teacher transitions — all through EduNetwork and ClearEnroll.
+      </p>
+<!-- Action Buttons -->
+<div class="flex flex-wrap items-center justify-center gap-space-md mt-space-lg">
+<a class="inline-flex items-center justify-center gap-space-xs px-space-lg py-3 rounded-lg bg-primary text-on-primary font-label-lg text-label-lg shadow-md hover:bg-primary-container transition-all" href="#product-breakdown">
+<span class="">Explore EduNetwork</span>
+<span class="material-symbols-outlined text-[18px]">east</span>
+</a>
+<a class="inline-flex items-center justify-center gap-space-xs px-space-lg py-3 rounded-lg bg-secondary text-on-secondary font-label-lg text-label-lg shadow-md hover:bg-secondary/90 transition-all" href="#clearenroll-details">
+<span class="material-symbols-outlined text-[18px]">verified</span>
+<span class="">Discover ClearEnroll</span>
+</a>
+<a class="inline-flex items-center gap-space-xs px-space-md py-3 rounded-lg bg-surface-container-lowest text-primary font-label-lg text-label-lg shadow-sm hover:bg-surface-container-low transition-all" href="#interactive-showcase">
+<span class="material-symbols-outlined text-[18px] text-secondary">play_circle</span>
+<span class="">Watch System Walkthroughs</span>
+</a>
+</div>
+<!-- DUAL ECOSYSTEM LIVE PREVIEW MOCKUP -->
+<div class="w-full mt-margin-lg relative">
+<div class="relative grid grid-cols-1 md:grid-cols-2 gap-space-lg items-stretch">
+<!-- Left Preview Card: EduNetwork SIS -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-xl flex flex-col justify-between gap-space-md border border-surface-container">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="w-3 h-3 rounded-full bg-error"></span>
+<span class="w-3 h-3 rounded-full bg-tertiary-fixed-dim"></span>
+<span class="w-3 h-3 rounded-full bg-secondary"></span>
+<span class="font-title-md text-title-md text-primary ml-2">EduNetwork SIS Console</span>
+</div>
+<span class="px-2.5 py-1 bg-surface-container-low text-primary font-label-sm text-label-sm rounded-full flex items-center gap-1 font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span> Live Operations
+</span>
+</div>
+<div class="grid grid-cols-2 gap-space-sm">
+<!-- Metric Tile 1 -->
+<div class="bg-surface-container-low p-space-md rounded-lg flex flex-col justify-between">
+<div class="flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm">
+<span class="">Student Attendance</span>
+<span class="material-symbols-outlined text-secondary text-[16px]">check_circle</span>
+</div>
+<div class="mt-2 flex items-baseline gap-2">
+<span class="font-headline-lg text-headline-lg text-primary">98.4%</span>
+<span class="text-secondary font-label-sm text-label-sm">Active Today</span>
+</div>
+<div class="w-full bg-surface-container-high h-1.5 rounded-full mt-2 overflow-hidden">
+<div class="bg-secondary h-full rounded-full" style="width: 98.4%"></div>
+</div>
+</div>
+<!-- Metric Tile 2 -->
+<div class="bg-surface-container-low p-space-md rounded-lg flex flex-col justify-between">
+<div class="flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm">
+<span class="">Tuition Ledger</span>
+<span class="material-symbols-outlined text-primary text-[16px]">payments</span>
+</div>
+<div class="mt-2 flex items-baseline gap-2">
+<span class="font-headline-lg text-headline-lg text-primary">96.8%</span>
+<span class="text-secondary font-label-sm text-label-sm">Collected</span>
+</div>
+<div class="w-full bg-surface-container-high h-1.5 rounded-full mt-2 overflow-hidden">
+<div class="bg-primary h-full rounded-full" style="width: 96.8%"></div>
+</div>
+</div>
+</div>
+<!-- Mini SIS Activity Table -->
+<div class="bg-surface-container-low rounded-lg p-space-md flex flex-col gap-space-xs">
+<div class="flex items-center justify-between font-label-md text-label-md text-on-surface-variant">
+<span class="">Academic &amp; Operations Activity</span>
+<span class="text-primary font-semibold">Live Feed</span>
+</div>
+<div class="flex items-center justify-between py-1.5 bg-surface-container-lowest px-3 rounded-lg shadow-sm">
+<div class="flex items-center gap-space-sm">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+<span class="font-body-md text-body-md text-on-surface">Term 2 Exam Report Cards Generated</span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary font-semibold">Published</span>
+</div>
+<div class="flex items-center justify-between py-1.5 bg-surface-container-lowest px-3 rounded-lg shadow-sm">
+<div class="flex items-center gap-space-sm">
+<span class="w-2 h-2 rounded-full bg-tertiary-fixed-dim"></span>
+<span class="font-body-md text-body-md text-on-surface">Staff Duty Roster &amp; Timetable Sync</span>
+</div>
+<span class="font-label-sm text-label-sm text-primary font-semibold">Completed</span>
+</div>
+</div>
+</div>
+<!-- Right Preview Card: ClearEnroll Verification -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-xl flex flex-col justify-between gap-space-md border border-secondary/20">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="w-8 h-8 rounded-lg bg-secondary/15 flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[20px]">verified_user</span>
+</span>
+<span class="font-title-md text-title-md text-primary">ClearEnroll Verification Portal</span>
+</div>
+<span class="px-2.5 py-1 bg-secondary/15 text-secondary font-label-sm text-label-sm rounded-full flex items-center gap-1 font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span> Network Active
+</span>
+</div>
+<!-- Verification Lookup & Record Preview -->
+<div class="bg-surface-container-low p-space-md rounded-lg flex flex-col gap-space-xs">
+<div class="flex justify-between items-center pb-2 border-b border-surface-container-high/60">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Recent Financial Clearance Inquiries</span>
+<span class="font-label-sm text-label-sm text-secondary font-bold">Participating Schools Sync</span>
+</div>
+<!-- Student record tile with Photo ID -->
+<div class="flex items-center justify-between p-2 rounded-lg bg-surface-container-lowest shadow-sm">
+<div class="flex items-center gap-2.5">
+<div class="w-9 h-9 rounded-full bg-primary/10 border border-primary/20 flex items-center justify-center text-primary font-bold text-xs">
+<span class="material-symbols-outlined text-[18px]">account_box</span>
+</div>
+<div>
+<div class="font-label-md text-label-md text-primary font-bold">Liam Campbell (Student)</div>
+<div class="font-label-sm text-label-sm text-on-surface-variant">Transfer Inquiry · St. Jude Prep</div>
+</div>
+</div>
+<div class="text-right">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-secondary/15 text-secondary font-label-sm text-label-sm font-semibold">
+<span class="material-symbols-outlined text-[13px]">check_circle</span> Cleared ($0.00)
+</span>
+</div>
+</div>
+<!-- Teacher record tile with Photo ID -->
+<div class="flex items-center justify-between p-2 rounded-lg bg-surface-container-lowest shadow-sm">
+<div class="flex items-center gap-2.5">
+<div class="w-9 h-9 rounded-full bg-secondary/10 border border-secondary/20 flex items-center justify-center text-secondary font-bold text-xs">
+<span class="material-symbols-outlined text-[18px]">badge</span>
+</div>
+<div>
+<div class="font-label-md text-label-md text-primary font-bold">Sarah Jenkins, M.Ed (Staff)</div>
+<div class="font-label-sm text-label-sm text-on-surface-variant">Teacher Verification · Grade 9-12</div>
+</div>
+</div>
+<div class="text-right">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-secondary/15 text-secondary font-label-sm text-label-sm font-semibold">
+<span class="material-symbols-outlined text-[13px]">check_circle</span> Verified &amp; Cleared
+</span>
+</div>
+</div>
+</div>
+<!-- Instant Sync Status Row -->
+<div class="p-space-md bg-surface-container-low rounded-lg flex items-center justify-between border-l-4 border-secondary">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[22px]">sync_alt</span>
+<div>
+<div class="font-label-md text-label-md text-primary font-bold">EduNetwork Auto-Sync Gateway</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Payment confirmed in SIS → Clearance updated across network</div>
+</div>
+</div>
+<span class="px-2.5 py-1 bg-secondary text-on-secondary rounded-full font-label-sm text-label-sm font-bold">Automated</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- NEW SECTION: INTERACTIVE PRODUCT SHOWCASE — SEE BOTH SYSTEMS IN ACTION -->
+<section class="w-full py-margin-lg bg-surface-container-low border-y border-surface-container-high/60" id="interactive-showcase">
+<div class="max-w-7xl mx-auto px-margin-sm lg:px-margin flex flex-col gap-space-xl">
+<div class="flex flex-col items-center text-center max-w-3xl mx-auto">
+<span class="px-3.5 py-1 rounded-full bg-primary/10 text-primary font-label-sm text-label-sm font-bold mb-space-xs">
+          Interactive Product Showcase
+        </span>
+<h2 class="font-headline-xl text-headline-xl text-primary">
+          Two Powerful Solutions. See Them in Action.
+        </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant mt-2">
+          Explore how EduNetwork simplifies everyday school management while ClearEnroll brings transparency and confidence to school clearance verification.
+        </p>
+</div>
+<!-- Two Equal-Width Video Simulation Cards (16:9 Aspect Ratio) -->
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-space-xl">
+<!-- Video Card 1: EduNetwork School Management System -->
+<div class="bg-surface-container-lowest rounded-xl shadow-lg border border-surface-container overflow-hidden flex flex-col justify-between">
+<!-- Video Player Simulation Container (16:9) -->
+<div class="relative w-full aspect-video bg-primary overflow-hidden group">
+<!-- Simulated UI Video Frame Backdrop -->
+<div class="absolute inset-0 bg-gradient-to-br from-[#041c37] via-[#0f2540] to-[#000f25] p-4 flex flex-col justify-between">
+<!-- Simulated Window Chrome -->
+<div class="flex items-center justify-between pb-2 border-b border-white/10 text-white/80 font-label-sm text-label-sm">
+<div class="flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-error"></span>
+<span class="w-2.5 h-2.5 rounded-full bg-tertiary-fixed-dim"></span>
+<span class="w-2.5 h-2.5 rounded-full bg-secondary-fixed"></span>
+<span class="ml-2 font-medium text-white/90">EduNetwork SIS — Central Dashboard</span>
+</div>
+<span class="px-2 py-0.5 rounded bg-white/10 text-[11px] text-white">Academic Year 2024-25</span>
+</div>
+<!-- Animated / Interactive Video Content Area -->
+<div class="grid grid-cols-12 gap-2 my-auto py-1">
+<!-- Left nav preview inside video -->
+<div class="col-span-3 bg-white/5 rounded p-2 flex flex-col gap-1.5 text-white/80 text-[11px]">
+<div class="flex items-center gap-1.5 px-2 py-1 bg-white/15 rounded text-white font-semibold">
+<span class="material-symbols-outlined text-[13px]">dashboard</span> Dashboard
+</div>
+<div class="flex items-center gap-1.5 px-2 py-1 rounded text-white/70">
+<span class="material-symbols-outlined text-[13px]">groups</span> Students
+</div>
+<div class="flex items-center gap-1.5 px-2 py-1 rounded text-white/70">
+<span class="material-symbols-outlined text-[13px]">menu_book</span> Academics
+</div>
+<div class="flex items-center gap-1.5 px-2 py-1 rounded text-white/70">
+<span class="material-symbols-outlined text-[13px]">credit_card</span> Fee Ledger
+</div>
+</div>
+<!-- Right metric charts preview inside video -->
+<div class="col-span-9 grid grid-cols-2 gap-2">
+<div class="bg-white/10 p-2.5 rounded flex flex-col justify-between">
+<span class="text-white/60 text-[10px] uppercase font-semibold">Total Active Students</span>
+<div class="text-lg font-bold text-white">2,450</div>
+<div class="text-secondary-fixed text-[10px] flex items-center gap-1">
+<span class="material-symbols-outlined text-[12px]">trending_up</span> 100% Rostered
+</div>
+</div>
+<div class="bg-white/10 p-2.5 rounded flex flex-col justify-between">
+<span class="text-white/60 text-[10px] uppercase font-semibold">Fees Collected Q2</span>
+<div class="text-lg font-bold text-white">$842,000</div>
+<div class="text-secondary-fixed text-[10px]">98.2% on schedule</div>
+</div>
+<div class="col-span-2 bg-white/5 p-2 rounded flex items-center justify-between text-white/90 text-[11px]">
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-secondary-fixed"></span>
+<span>Exam report cards generated for 48 grade sections</span>
+</div>
+<span class="text-white/60 text-[10px]">Live Audit</span>
+</div>
+</div>
+</div>
+<!-- Video Player Controls Simulation Bar -->
+<div class="w-full bg-black/60 backdrop-blur px-3 py-1.5 rounded flex items-center justify-between gap-3 text-white text-xs z-10">
+<button aria-label="Play or Pause Video" class="hover:text-secondary-fixed flex items-center" type="button">
+<span class="material-symbols-outlined text-[18px]">pause</span>
+</button>
+<div class="flex-1 flex items-center gap-2">
+<div class="w-full bg-white/20 h-1.5 rounded-full overflow-hidden cursor-pointer">
+<div class="bg-secondary-fixed h-full rounded-full" style="width: 70%"></div>
+</div>
+<span class="text-[11px] font-mono text-white/80">0:42 / 1:00</span>
+</div>
+<div class="flex items-center gap-2 text-white/80">
+<span class="material-symbols-outlined text-[16px]">volume_up</span>
+<span class="material-symbols-outlined text-[16px]">fullscreen</span>
+</div>
+</div>
+</div>
+<!-- Large Overlay Play/Pause Button on hover -->
+<button aria-label="Play Walkthrough Video" class="absolute inset-0 m-auto w-14 h-14 rounded-full bg-secondary text-on-secondary flex items-center justify-center shadow-2xl opacity-90 group-hover:scale-110 transition-transform" type="button">
+<span class="material-symbols-outlined text-[32px]">play_arrow</span>
+</button>
+</div>
+<!-- Card Body & Features Previewed -->
+<div class="p-space-lg flex flex-col gap-space-md flex-1 justify-between">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center gap-2 text-secondary font-label-sm text-label-sm font-bold">
+<span class="material-symbols-outlined text-[16px]">play_circle</span> Interactive Demo
+</div>
+<h3 class="font-headline-md text-headline-md text-primary">Experience Smarter School Management</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+        Take a quick look inside EduNetwork and discover how schools can manage students, academics, finances, staff, and communication from one connected platform.
+      </p>
+<div class="pt-space-xs">
+<span class="font-label-sm text-label-sm text-primary font-bold uppercase tracking-wider">Highlight Features Previewed:</span>
+<ul class="grid grid-cols-2 gap-2 mt-2 font-body-sm text-body-sm text-on-surface">
+<li class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-secondary text-[16px]">check</span> Main administration dashboard
+</li>
+<li class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-secondary text-[16px]">check</span> Student records &amp; profiles
+</li>
+<li class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-secondary text-[16px]">check</span> Academic results &amp; report cards
+</li>
+<li class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-secondary text-[16px]">check</span> School fees &amp; finance dashboard
+</li>
+<li class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-secondary text-[16px]">check</span> Timetables &amp; duty rosters
+</li>
+<li class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-secondary text-[16px]">check</span> Parent &amp; teacher portals
+</li>
+</ul>
+</div>
+</div>
+<div class="pt-space-md border-t border-surface-container-high/60 flex items-center justify-between">
+<a class="inline-flex items-center gap-space-xs px-space-md py-2.5 rounded-lg bg-primary text-on-primary font-label-lg text-label-lg shadow-sm hover:bg-primary-container transition-all" href="#product-breakdown">
+<span>Explore EduNetwork</span>
+<span class="material-symbols-outlined text-[18px]">east</span>
+</a>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">1:00 min video overview</span>
+</div>
+</div>
+</div>
+<!-- Video Card 2: ClearEnroll Clearance & Verification -->
+<div class="bg-surface-container-lowest rounded-xl shadow-lg border border-secondary/30 overflow-hidden flex flex-col justify-between">
+<!-- Video Player Simulation Container (16:9) -->
+<div class="relative w-full aspect-video bg-primary-container overflow-hidden group">
+<!-- Simulated UI Video Frame Backdrop -->
+<div class="absolute inset-0 bg-gradient-to-br from-[#002113] via-[#004229] to-[#041c37] p-4 flex flex-col justify-between">
+<!-- Simulated Window Chrome -->
+<div class="flex items-center justify-between pb-2 border-b border-white/10 text-white/80 font-label-sm text-label-sm">
+<div class="flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-error"></span>
+<span class="w-2.5 h-2.5 rounded-full bg-tertiary-fixed-dim"></span>
+<span class="w-2.5 h-2.5 rounded-full bg-secondary-fixed"></span>
+<span class="ml-2 font-medium text-white/90">ClearEnroll — Clearance Verification Search</span>
+</div>
+<span class="px-2 py-0.5 rounded bg-secondary-fixed/20 text-[11px] text-secondary-fixed font-semibold">Live Clearance Engine</span>
+</div>
+<!-- Animated / Interactive Video Content Area -->
+<div class="grid grid-cols-12 gap-2 my-auto py-1">
+<!-- Left search & photo card in video -->
+<div class="col-span-5 bg-white/10 rounded p-2 flex flex-col gap-1.5 text-white text-[11px]">
+<div class="text-[10px] text-white/70 uppercase font-semibold">Verification Record ID #8492</div>
+<div class="flex items-center gap-2 mt-1">
+<div class="w-9 h-9 rounded bg-secondary-fixed/20 border border-secondary-fixed/40 flex items-center justify-center text-secondary-fixed">
+<span class="material-symbols-outlined text-[20px]">person_check</span>
+</div>
+<div>
+<div class="font-bold text-white">David K. Mensah</div>
+<div class="text-[10px] text-white/70">Candidate: Grade 10</div>
+</div>
+</div>
+<div class="mt-1 flex items-center justify-between bg-black/30 p-1.5 rounded">
+<span class="text-[10px] text-white/70">Photo Match:</span>
+<span class="text-secondary-fixed font-bold text-[10px]">Verified 100%</span>
+</div>
+</div>
+<!-- Right clearance status card in video -->
+<div class="col-span-7 bg-white/10 rounded p-2 flex flex-col justify-between text-white text-[11px]">
+<div class="flex items-center justify-between">
+<span class="text-[10px] text-white/70 uppercase">Transfer Clearance Status</span>
+<span class="px-1.5 py-0.5 rounded bg-secondary text-white font-bold text-[10px]">CLEARED</span>
+</div>
+<div class="space-y-1 my-1">
+<div class="flex justify-between text-[10px]">
+<span class="text-white/70">Previous Institution:</span>
+<span class="font-semibold text-white">Horizon Academy</span>
+</div>
+<div class="flex justify-between text-[10px]">
+<span class="text-white/70">Outstanding Fee Balance:</span>
+<span class="font-bold text-secondary-fixed">$0.00 (Settled)</span>
+</div>
+<div class="flex justify-between text-[10px]">
+<span class="text-white/70">EduNetwork Sync:</span>
+<span class="text-white font-semibold">Synced 2m ago</span>
+</div>
+</div>
+<div class="text-[9px] text-white/60 bg-white/5 px-1.5 py-0.5 rounded">Auto-clearance triggered upon final payment confirmation</div>
+</div>
+</div>
+<!-- Video Player Controls Simulation Bar -->
+<div class="w-full bg-black/60 backdrop-blur px-3 py-1.5 rounded flex items-center justify-between gap-3 text-white text-xs z-10">
+<button aria-label="Play or Pause Video" class="hover:text-secondary-fixed flex items-center" type="button">
+<span class="material-symbols-outlined text-[18px]">pause</span>
+</button>
+<div class="flex-1 flex items-center gap-2">
+<div class="w-full bg-white/20 h-1.5 rounded-full overflow-hidden cursor-pointer">
+<div class="bg-secondary-fixed h-full rounded-full" style="width: 70%"></div>
+</div>
+<span class="text-[11px] font-mono text-white/80">0:42 / 1:00</span>
+</div>
+<div class="flex items-center gap-2 text-white/80">
+<span class="material-symbols-outlined text-[16px]">volume_up</span>
+<span class="material-symbols-outlined text-[16px]">fullscreen</span>
+</div>
+</div>
+</div>
+<!-- Large Overlay Play/Pause Button on hover -->
+<button aria-label="Play ClearEnroll Walkthrough Video" class="absolute inset-0 m-auto w-14 h-14 rounded-full bg-primary text-on-primary flex items-center justify-center shadow-2xl opacity-90 group-hover:scale-110 transition-transform" type="button">
+<span class="material-symbols-outlined text-[32px]">play_arrow</span>
+</button>
+</div>
+<!-- Card Body & Features Previewed -->
+<div class="p-space-lg flex flex-col gap-space-md flex-1 justify-between">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center gap-2 text-secondary font-label-sm text-label-sm font-bold">
+<span class="material-symbols-outlined text-[16px]">verified</span> Live Clearance Demo
+</div>
+<h3 class="font-headline-md text-headline-md text-primary">School Clearance Verification Made Simple</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+        See how ClearEnroll helps institutions verify student and teacher clearance records, identify outstanding school fees, and maintain transparent financial clearance information across participating schools.
+      </p>
+<div class="pt-space-xs">
+<span class="font-label-sm text-label-sm text-primary font-bold uppercase tracking-wider">Highlight Features Previewed:</span>
+<ul class="grid grid-cols-2 gap-2 mt-2 font-body-sm text-body-sm text-on-surface">
+<li class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-secondary text-[16px]">check</span> ClearEnroll verification dashboard
+</li>
+<li class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-secondary text-[16px]">check</span> Student &amp; teacher clearance records
+</li>
+<li class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-secondary text-[16px]">check</span> Photo ID verification confirmation
+</li>
+<li class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-secondary text-[16px]">check</span> Outstanding fee status indicators
+</li>
+<li class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-secondary text-[16px]">check</span> Multi-school clearance confirmation
+</li>
+<li class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-secondary text-[16px]">check</span> EduNetwork payment synchronization
+</li>
+</ul>
+</div>
+</div>
+<div class="pt-space-md border-t border-surface-container-high/60 flex items-center justify-between">
+<a class="inline-flex items-center gap-space-xs px-space-md py-2.5 rounded-lg bg-secondary text-on-secondary font-label-lg text-label-lg shadow-sm hover:bg-secondary/90 transition-all" href="#clearenroll-details">
+<span>Explore ClearEnroll</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">1:00 min video overview</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Bottom Caption Banner -->
+<div class="text-center pt-space-xs">
+<p class="font-title-md text-title-md text-primary font-semibold">
+      Built for schools. Designed for simplicity. Connected for better decisions.
+    </p>
+</div>
+</div>
+</section>
+<!-- PRODUCT BREAKDOWN SECTION -->
+<section class="w-full py-margin-lg bg-surface" id="product-breakdown">
+<div class="max-w-7xl mx-auto px-margin-sm lg:px-margin flex flex-col gap-space-xl">
+<div class="max-w-3xl flex flex-col gap-space-sm">
+<span class="px-3 py-1 rounded-full bg-primary/10 text-primary font-label-sm text-label-sm w-fit font-bold">
+          Product Ecosystem
+        </span>
+<h2 class="font-headline-xl text-headline-xl text-primary">
+          Two Powerful Solutions. One Connected Experience.
+        </h2>
+<p class="font-headline-sm text-headline-sm text-secondary font-semibold">
+          Manage Your School with EduNetwork. Verify with ClearEnroll.
+        </p>
+</div>
+<!-- Side-by-side Product Breakdown Cards -->
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-space-xl">
+<!-- CARD 1: EduNetwork School Management System -->
+<div class="bg-surface-container-lowest rounded-xl shadow-md overflow-hidden flex flex-col hover:shadow-xl transition-shadow border border-surface-container">
+<div class="relative h-64 w-full overflow-hidden bg-surface-container">
+<img alt="Educators and students collaborating with digital tablet and notebooks in a modern school setting" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBNORqWaxMBlR3OPBSWLNNGCXs1wRovUlgVXo2hwDKP1MHpHNYPsxPJ2aKZtaHHYWCnZ0F68om08l_wVgEHbeDci3q21MbukzZA7royMrZ-dYxDjq-c7Lq5n_9J_NBr0pDOrWt84r-5wNn85BqlXZs8N9ph1_8QRqh0XwY8EMMXL0zro-11BMWu6Kfzwls96zZbRNd8nc4Z60PgPI_gVQd5FnLGqrEKeVj7YlqTleMW"/>
+<div class="absolute bottom-3 left-3 bg-primary text-on-primary text-xs px-2.5 py-1 rounded-md font-semibold flex items-center gap-1 shadow">
+<span class="material-symbols-outlined text-[14px]">school</span> Complete School Administration
+</div>
+</div>
+<div class="p-space-lg flex flex-col gap-space-md flex-1 justify-between">
+<div>
+<div class="flex items-center gap-2">
+<span class="px-2.5 py-0.5 rounded bg-primary/10 text-primary font-label-sm text-label-sm font-bold">Core Management Platform</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary mt-1">EduNetwork School Management System</h3>
+<p class="font-title-md text-title-md text-secondary font-semibold mt-1">
+          One Platform. Every School Operation.
+        </p>
+<p class="mt-space-sm font-body-md text-body-md text-on-surface-variant">
+          EduNetwork is a comprehensive, web-based school management system designed to simplify administration, improve academic coordination, and strengthen financial management across educational institutions. Brings admissions, academic records, fees, exams, report cards, timetables, and parent communication into one connected platform with dedicated roles for administrators, academics, accountants, teachers, parents, and students.
+        </p>
+<div class="mt-space-md grid grid-cols-2 gap-space-sm pt-2 border-t border-surface-container-high/60">
+<div class="flex items-center gap-2 font-label-md text-label-md text-on-surface">
+<span class="material-symbols-outlined text-secondary text-[18px]">badge</span> Academic Records &amp; Transcripts
+</div>
+<div class="flex items-center gap-2 font-label-md text-label-md text-on-surface">
+<span class="material-symbols-outlined text-secondary text-[18px]">payments</span> Fee &amp; Tuition Invoicing
+</div>
+<div class="flex items-center gap-2 font-label-md text-label-md text-on-surface">
+<span class="material-symbols-outlined text-secondary text-[18px]">event_note</span> Timetables &amp; Scheduling
+</div>
+<div class="flex items-center gap-2 font-label-md text-label-md text-on-surface">
+<span class="material-symbols-outlined text-secondary text-[18px]">forum</span> Parent &amp; Teacher Communication
+</div>
+</div>
+</div>
+<div class="pt-space-md border-t border-surface-container-high/60 flex items-center justify-between gap-space-sm flex-wrap">
+<div class="flex items-center gap-space-sm">
+<a class="inline-flex items-center gap-space-xs px-space-md py-2 rounded-lg bg-primary text-on-primary font-label-lg text-label-lg shadow-sm hover:bg-primary-container transition-all" href="#detailed-features">
+<span>Explore EduNetwork</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+<a class="inline-flex items-center gap-space-xs px-space-md py-2 rounded-lg bg-surface-container text-primary font-label-lg text-label-lg hover:bg-surface-container-high transition-all" href="#demo-inquiry">
+<span>Book a Demo</span>
+</a>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">Role-Based Access</span>
+</div>
+</div>
+</div>
+<!-- CARD 2: ClearEnroll School Clearance & Verification -->
+<div class="bg-surface-container-lowest rounded-xl shadow-md overflow-hidden flex flex-col hover:shadow-xl transition-shadow border border-secondary/30" id="clearenroll-details">
+<div class="relative h-64 w-full overflow-hidden bg-surface-container">
+<img alt="School admissions and administrative office verifying official clearance documents and digital IDs" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAKIoVcS9hF4IHl6T-z6-nqUawpF0kDF_NW-j9HdHf6YkX-LUu3eUySCgIl-lhBePVq2uI-AXWw_hVq1tG1Mor6jirG2JYbsx8J5PNveTncrYE_U3zxn_MJprrcAUYtCuErmCoR2WcWsVQbIG-l8m8b0Y5d23rGzcCMHeAMnUHuCuxVWi4YwFiXVhAAjEv9dZZeKnReYVl45UgluywIqKVsnTElcGCRQmqXYj-f32wQ"/>
+<div class="absolute bottom-3 left-3 bg-secondary text-on-secondary text-xs px-2.5 py-1 rounded-md font-semibold flex items-center gap-1 shadow">
+<span class="material-symbols-outlined text-[14px]">verified_user</span> Multi-School Verification Network
+</div>
+</div>
+<div class="p-space-lg flex flex-col gap-space-md flex-1 justify-between">
+<div>
+<div class="flex items-center gap-2">
+<span class="px-2.5 py-0.5 rounded bg-secondary/15 text-secondary font-label-sm text-label-sm font-bold">Verification Platform</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary mt-1">ClearEnroll — School Clearance &amp; Verification</h3>
+<p class="font-title-md text-title-md text-secondary font-semibold mt-1">
+          Verify with confidence. Enroll with clarity.
+        </p>
+<p class="mt-space-sm font-body-md text-body-md text-on-surface-variant">
+          ClearEnroll helps schools verify the financial clearance status of students and teachers before transfers or new admissions. Through a connected verification platform, institutions can identify outstanding fee obligations, confirm clearance records with photo identification, and make informed enrollment decisions.
+        </p>
+<div class="mt-space-md grid grid-cols-2 gap-space-sm pt-2 border-t border-surface-container-high/60">
+<div class="flex items-center gap-2 font-label-md text-label-md text-on-surface">
+<span class="material-symbols-outlined text-secondary text-[18px]">search_check</span> Student Financial Clearance
+</div>
+<div class="flex items-center gap-2 font-label-md text-label-md text-on-surface">
+<span class="material-symbols-outlined text-secondary text-[18px]">verified</span> Teacher Clearance Verification
+</div>
+<div class="flex items-center gap-2 font-label-md text-label-md text-on-surface">
+<span class="material-symbols-outlined text-secondary text-[18px]">portrait</span> Photo-Based Identification
+</div>
+<div class="flex items-center gap-2 font-label-md text-label-md text-on-surface">
+<span class="material-symbols-outlined text-secondary text-[18px]">sync</span> Automatic EduNetwork Sync
+</div>
+</div>
+</div>
+<div class="pt-space-md border-t border-surface-container-high/60 flex items-center justify-between gap-space-sm flex-wrap">
+<div class="flex items-center gap-space-sm">
+<a class="inline-flex items-center gap-space-xs px-space-md py-2 rounded-lg bg-secondary text-on-secondary font-label-lg text-label-lg shadow-sm hover:bg-secondary/90 transition-all font-bold" href="#detailed-features">
+<span>Explore ClearEnroll</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+<a class="inline-flex items-center gap-space-xs px-space-md py-2 rounded-lg bg-surface-container text-primary font-label-lg text-label-lg hover:bg-surface-container-high transition-all" href="#demo-inquiry">
+<span>Request a Demo</span>
+</a>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">Standalone or Integrated</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- DETAILED FEATURES SECTION: GREATER TRANSPARENCY. BETTER SCHOOL TRANSITIONS -->
+<section class="w-full py-margin-lg bg-surface-container-low" id="detailed-features">
+<div class="max-w-7xl mx-auto px-margin-sm lg:px-margin flex flex-col gap-space-xl">
+<div class="flex flex-col items-center text-center max-w-3xl mx-auto">
+<span class="px-3.5 py-1 rounded-full bg-secondary/15 text-secondary font-label-sm text-label-sm font-bold mb-space-xs">
+      Institutional Accountability
+    </span>
+<h2 class="font-headline-xl text-headline-xl text-primary">
+      Greater Transparency. Better School Transitions.
+    </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant mt-2">
+      Powerful Tools for Better School Administration and Financial Accountability.
+    </p>
+</div>
+<!-- Grid of 6 Core Feature Cards -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-lg">
+<!-- Feature Card 1 -->
+<div class="p-space-lg bg-surface-container-lowest rounded-xl shadow-sm border border-surface-container flex flex-col justify-between gap-space-md hover:shadow-md transition-shadow">
+<div class="flex flex-col gap-space-sm">
+<div class="w-12 h-12 rounded-xl bg-secondary/15 flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[28px]">search_check</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary">Student Clearance Verification</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+        Check a student's financial clearance status before admission or transfer, identifying outstanding obligations from participating institutions.
+      </p>
+</div>
+<div class="pt-space-sm border-t border-surface-container-high/60 flex items-center justify-between font-label-sm text-label-sm text-secondary font-bold">
+<span>Frictionless Transfer Audit</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</div>
+</div>
+<!-- Feature Card 2 -->
+<div class="p-space-lg bg-surface-container-lowest rounded-xl shadow-sm border border-surface-container flex flex-col justify-between gap-space-md hover:shadow-md transition-shadow">
+<div class="flex flex-col gap-space-sm">
+<div class="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[28px]">badge</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary">Teacher Verification</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+        Verify teacher clearance records through ClearEnroll, supporting more informed administrative decisions when staff move between schools.
+      </p>
+</div>
+<div class="pt-space-sm border-t border-surface-container-high/60 flex items-center justify-between font-label-sm text-label-sm text-primary font-bold">
+<span>Professional Credential Check</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</div>
+</div>
+<!-- Feature Card 3 -->
+<div class="p-space-lg bg-surface-container-lowest rounded-xl shadow-sm border border-surface-container flex flex-col justify-between gap-space-md hover:shadow-md transition-shadow">
+<div class="flex flex-col gap-space-sm">
+<div class="w-12 h-12 rounded-xl bg-secondary/15 flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[28px]">portrait</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary">Photo-Based Identification</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+        Access available student and teacher photographs alongside verification records to support accurate identification.
+      </p>
+</div>
+<div class="pt-space-sm border-t border-surface-container-high/60 flex items-center justify-between font-label-sm text-label-sm text-secondary font-bold">
+<span>Visual Identity Validation</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</div>
+</div>
+<!-- Feature Card 4 -->
+<div class="p-space-lg bg-surface-container-lowest rounded-xl shadow-sm border border-surface-container flex flex-col justify-between gap-space-md hover:shadow-md transition-shadow">
+<div class="flex flex-col gap-space-sm">
+<div class="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[28px]">account_balance_wallet</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary">Outstanding Fee Visibility</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+        Identify students with outstanding school fee balances and monitor their real-time clearance status.
+      </p>
+</div>
+<div class="pt-space-sm border-t border-surface-container-high/60 flex items-center justify-between font-label-sm text-label-sm text-primary font-bold">
+<span>Balance Tracking</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</div>
+</div>
+<!-- Feature Card 5 -->
+<div class="p-space-lg bg-surface-container-lowest rounded-xl shadow-sm border border-surface-container flex flex-col justify-between gap-space-md hover:shadow-md transition-shadow">
+<div class="flex flex-col gap-space-sm">
+<div class="w-12 h-12 rounded-xl bg-secondary/15 flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[28px]">sync</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary">Automatic Clearance Updates</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+        When integrated with EduNetwork, payment records are synchronized with ClearEnroll. Once a student's outstanding fees are fully settled, their clearance status is updated automatically.
+      </p>
+</div>
+<div class="pt-space-sm border-t border-surface-container-high/60 flex items-center justify-between font-label-sm text-label-sm text-secondary font-bold">
+<span>Instant Status Clearing</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</div>
+</div>
+<!-- Feature Card 6 -->
+<div class="p-space-lg bg-surface-container-lowest rounded-xl shadow-sm border border-surface-container flex flex-col justify-between gap-space-md hover:shadow-md transition-shadow">
+<div class="flex flex-col gap-space-sm">
+<div class="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[28px]">hub</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary">Connected School Ecosystem</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+        Support responsible student and staff transitions through a shared verification platform connecting participating educational institutions.
+      </p>
+</div>
+<div class="pt-space-sm border-t border-surface-container-high/60 flex items-center justify-between font-label-sm text-label-sm text-primary font-bold">
+<span>Multi-School Network</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- INTEGRATION SECTION -->
+<section class="w-full py-margin-lg bg-surface" id="integration-section">
+<div class="max-w-7xl mx-auto px-margin-sm lg:px-margin flex flex-col gap-space-xl">
+<div class="max-w-3xl flex flex-col gap-space-sm">
+<span class="px-3.5 py-1 rounded-full bg-primary/10 text-primary font-label-sm text-label-sm w-fit font-bold">
+      Cross-Platform Synergy
+    </span>
+<h2 class="font-headline-xl text-headline-xl text-primary">
+      Connected School Management. Transparent Clearance.
+    </h2>
+<p class="font-headline-sm text-headline-sm text-secondary font-semibold">
+      How EduNetwork + ClearEnroll Work Together
+    </p>
+<p class="font-body-lg text-body-lg text-on-surface-variant mt-1">
+      EduNetwork and ClearEnroll work together to bring school administration and financial clearance verification into one connected experience. While EduNetwork manages everyday school operations, ClearEnroll extends visibility beyond the institution by enabling clearance verification across participating schools.
+    </p>
+</div>
+<!-- Interactive Integration Breakdown Card -->
+<div class="bg-surface-container-lowest rounded-xl shadow-lg border border-surface-container p-space-xl grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center">
+<!-- Left: Bulleted Integration Highlights -->
+<div class="lg:col-span-7 flex flex-col gap-space-md">
+<h3 class="font-headline-md text-headline-md text-primary">Seamless Sync Between Daily Operations &amp; Network Clearance</h3>
+<div class="flex flex-col gap-space-sm mt-2">
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[22px] mt-0.5">check_circle</span>
+<span class="font-body-md text-body-md text-on-surface"><strong>Direct Verification Access:</strong> Verify student and teacher clearance records directly from EduNetwork.</span>
+</div>
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[22px] mt-0.5">check_circle</span>
+<span class="font-body-md text-body-md text-on-surface"><strong>Cross-Institution Visibility:</strong> Identify students with outstanding fee obligations across institutions.</span>
+</div>
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[22px] mt-0.5">check_circle</span>
+<span class="font-body-md text-body-md text-on-surface"><strong>Scheduled Balance Sync:</strong> Automatically synchronize outstanding student balances with ClearEnroll through scheduled updates.</span>
+</div>
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[22px] mt-0.5">check_circle</span>
+<span class="font-body-md text-body-md text-on-surface"><strong>Instant Ledger Updates:</strong> Update clearance records instantaneously as fee payments are received.</span>
+</div>
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[22px] mt-0.5">check_circle</span>
+<span class="font-body-md text-body-md text-on-surface"><strong>Zero Paperwork Settlement:</strong> Confirm when a student's fees have been fully settled without manual paperwork.</span>
+</div>
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[22px] mt-0.5">check_circle</span>
+<span class="font-body-md text-body-md text-on-surface"><strong>Faster Transfer Turnaround:</strong> Reduce manual verification delays during student transfers and admissions.</span>
+</div>
+</div>
+</div>
+<!-- Right: Visual Integration Flow Diagram -->
+<div class="lg:col-span-5 bg-surface-container-low p-space-lg rounded-xl flex flex-col gap-space-md border border-surface-container">
+<div class="flex items-center justify-between font-label-md text-label-md text-primary font-bold">
+<span>Zero-Touch Synchronization Flow</span>
+<span class="px-2 py-0.5 rounded bg-secondary/15 text-secondary text-[11px]">Real-Time Active</span>
+</div>
+<!-- Step 1 Box -->
+<div class="p-3 bg-surface-container-lowest rounded-lg shadow-sm border border-surface-container flex items-center gap-3">
+<div class="w-10 h-10 rounded-lg bg-primary text-on-primary flex items-center justify-center font-bold">
+1
+</div>
+<div>
+<div class="font-label-md text-label-md text-primary font-bold">Payment Logged in EduNetwork</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Accountant reconciles outstanding tuition balance</div>
+</div>
+</div>
+<!-- Flow Down Arrow -->
+<div class="flex justify-center -my-1 text-secondary">
+<span class="material-symbols-outlined text-[22px]">arrow_downward</span>
+</div>
+<!-- Step 2 Box -->
+<div class="p-3 bg-surface-container-lowest rounded-lg shadow-sm border border-secondary/30 flex items-center gap-3">
+<div class="w-10 h-10 rounded-lg bg-secondary text-on-secondary flex items-center justify-center font-bold">
+2
+</div>
+<div>
+<div class="font-label-md text-label-md text-primary font-bold">Automated Network Sync</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Scheduled or real-time sync pushes settled status</div>
+</div>
+</div>
+<!-- Flow Down Arrow -->
+<div class="flex justify-center -my-1 text-secondary">
+<span class="material-symbols-outlined text-[22px]">arrow_downward</span>
+</div>
+<!-- Step 3 Box -->
+<div class="p-3 bg-surface-container-lowest rounded-lg shadow-sm border border-surface-container flex items-center gap-3">
+<div class="w-10 h-10 rounded-lg bg-secondary-fixed-dim text-on-secondary-fixed flex items-center justify-center font-bold">
+3
+</div>
+<div>
+<div class="font-label-md text-label-md text-primary font-bold">ClearEnroll Clearance Issued</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Participating transfer schools view verified status &amp; photo ID</div>
+</div>
+</div>
+<div class="p-2.5 bg-secondary/10 rounded-lg text-center font-label-sm text-label-sm text-secondary font-bold">
+✓ Eliminates transfer debt disputes &amp; verification phone calls
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- INTERACTIVE BOOK A DEMO & INQUIRY SECTION -->
+<section class="w-full py-margin-lg bg-surface-container-low" id="demo-inquiry">
+<div class="max-w-7xl mx-auto px-margin-sm lg:px-margin">
+<div class="bg-primary text-on-primary rounded-xl shadow-xl overflow-hidden grid grid-cols-1 lg:grid-cols-12">
+<!-- Left: Consultation Value Points -->
+<div class="lg:col-span-5 p-space-xl flex flex-col justify-between gap-space-lg bg-primary-container">
+<div class="flex flex-col gap-space-md">
+<span class="px-3 py-1 rounded-full bg-secondary-fixed/20 text-secondary-fixed font-label-sm text-label-sm w-fit font-bold">
+              Tailored Consultation
+            </span>
+<h3 class="font-headline-lg text-headline-lg text-on-primary">
+              Bring Clarity and Confidence to Your School Operations.
+            </h3>
+<p class="font-body-md text-body-md text-surface-variant">
+              Schedule a guided consultation and walkthrough for EduNetwork SIS, ClearEnroll Verification, or the unified ecosystem.
+            </p>
+<div class="flex flex-col gap-space-md mt-space-md">
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-secondary-fixed text-[22px] mt-0.5">verified</span>
+<div>
+<div class="font-label-lg text-label-lg font-bold text-on-primary">Comprehensive Walkthrough</div>
+<div class="font-body-sm text-body-sm text-surface-variant">Tailored demonstrations covering SIS workflows and multi-school clearance lookup.</div>
+</div>
+</div>
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-secondary-fixed text-[22px] mt-0.5">security</span>
+<div>
+<div class="font-label-lg text-label-lg font-bold text-on-primary">Network Data Protection</div>
+<div class="font-body-sm text-body-sm text-surface-variant">Institutional confidentiality and secure role-based clearance permissions.</div>
+</div>
+</div>
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-secondary-fixed text-[22px] mt-0.5">schedule</span>
+<div>
+<div class="font-label-lg text-label-lg font-bold text-on-primary">Guided Onboarding Plan</div>
+<div class="font-body-sm text-body-sm text-surface-variant">Expert assistance setting up school accounts and verifying teacher/student cohorts.</div>
+</div>
+</div>
+</div>
+</div>
+<div class="pt-space-md border-t border-primary/20 font-body-sm text-body-sm text-surface-variant">
+            Need direct assistance? Contact our team at <strong>demo@edunetwork.io</strong> or call <strong>1-800-EDUNET</strong>.
+</div>
+</div>
+<!-- Right: Working Interactive Request Form -->
+<div class="lg:col-span-7 p-space-xl bg-surface-container-lowest text-on-surface">
+<form class="flex flex-col gap-space-md" id="schedule-demo-form" onsubmit="event.preventDefault(); handleFormSubmit();">
+<div>
+<h4 class="font-headline-sm text-headline-sm text-primary">Schedule a Guided Campus Walkthrough</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Our academic technology specialists respond in under 2 hours during school hours.</p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<div class="flex flex-col gap-1">
+<label class="font-label-md text-label-md text-primary font-semibold" for="first-name">First Name *</label>
+<input class="h-11 px-3 bg-surface-container-lowest rounded-lg border border-outline-variant font-body-md text-body-md text-on-surface focus:outline-none focus:ring-2 focus:ring-primary shadow-sm" id="first-name" placeholder="Eleanor" required="" type="text"/>
+</div>
+<div class="flex flex-col gap-1">
+<label class="font-label-md text-label-md text-primary font-semibold" for="last-name">Last Name *</label>
+<input class="h-11 px-3 bg-surface-container-lowest rounded-lg border border-outline-variant font-body-md text-body-md text-on-surface focus:outline-none focus:ring-2 focus:ring-primary shadow-sm" id="last-name" placeholder="Vance" required="" type="text"/>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<div class="flex flex-col gap-1">
+<label class="font-label-md text-label-md text-primary font-semibold" for="work-email">Institutional Email *</label>
+<input class="h-11 px-3 bg-surface-container-lowest rounded-lg border border-outline-variant font-body-md text-body-md text-on-surface focus:outline-none focus:ring-2 focus:ring-primary shadow-sm" id="work-email" placeholder="e.vance@oakwood.edu" required="" type="email"/>
+</div>
+<div class="flex flex-col gap-1">
+<label class="font-label-md text-label-md text-primary font-semibold" for="school-name">School / District Name *</label>
+<input class="h-11 px-3 bg-surface-container-lowest rounded-lg border border-outline-variant font-body-md text-body-md text-on-surface focus:outline-none focus:ring-2 focus:ring-primary shadow-sm" id="school-name" placeholder="Oakwood Academy" required="" type="text"/>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<div class="flex flex-col gap-1">
+<label class="font-label-md text-label-md text-primary font-semibold" for="role-select">Institutional Role *</label>
+<select class="h-11 px-3 bg-surface-container-lowest rounded-lg border border-outline-variant font-body-md text-body-md text-on-surface focus:outline-none focus:ring-2 focus:ring-primary shadow-sm" id="role-select">
+<option value="Head of School / Superintendent">Head of School / Superintendent</option>
+<option value="Principal / Academic Dean">Principal / Academic Dean</option>
+<option value="Director of Admissions / Registrar">Director of Admissions / Registrar</option>
+<option value="Bursar / Financial Controller">Bursar / Financial Controller</option>
+<option value="IT Director / Tech Admin">IT Director / Tech Admin</option>
+</select>
+</div>
+<div class="flex flex-col gap-1">
+<label class="font-label-md text-label-md text-primary font-semibold" for="interest-select">Primary Platform Interest *</label>
+<select class="h-11 px-3 bg-surface-container-lowest rounded-lg border border-outline-variant font-body-md text-body-md text-on-surface focus:outline-none focus:ring-2 focus:ring-primary shadow-sm" id="interest-select">
+<option value="EduNetwork + ClearEnroll Unified">EduNetwork + ClearEnroll Unified</option>
+<option value="EduNetwork SIS">EduNetwork SIS</option>
+<option value="ClearEnroll Verification">ClearEnroll Verification</option>
+</select>
+</div>
+</div>
+<div class="pt-space-xs">
+<button class="w-full h-12 bg-primary hover:bg-primary-container text-on-primary font-label-lg text-label-lg rounded-lg shadow-md transition-all flex items-center justify-center gap-space-xs cursor-pointer" id="submit-btn" type="submit">
+<span class="">Schedule Personalized Walkthrough</span>
+<span class="material-symbols-outlined text-[18px]">calendar_today</span>
+</button>
+</div>
+<div class="hidden p-space-md bg-secondary/15 text-secondary rounded-lg font-body-sm text-body-sm flex items-center gap-2" id="form-success">
+<span class="material-symbols-outlined text-[20px]">check_circle</span>
+<span class="">Thank you! Your walkthrough request has been received. Our team will contact your institution shortly.</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant text-center">
+              Institutional privacy guaranteed. No spam or third-party sharing.
+            </p>
+</form>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Script -->
+<script>
+    function handleFormSubmit() {
+      const successBanner = document.getElementById('form-success');
+      const submitBtn = document.getElementById('submit-btn');
+      if (submitBtn) {
+        submitBtn.disabled = true;
+        submitBtn.innerHTML = '<span>Request Confirmed!</span>';
+      }
+      if (successBanner) {
+        successBanner.classList.remove('hidden');
+      }
+    }
+</script>
+</div></main>
+<!-- FOOTER -->
+<footer class="w-full bg-surface-container-low pt-margin-lg pb-margin border-t border-surface-container-high/60">
+<div class="max-w-7xl mx-auto px-margin-sm lg:px-margin">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-space-xl pb-margin-lg">
+<div class="lg:col-span-4 flex flex-col gap-space-md">
+<div class="flex items-center gap-space-sm">
+<img alt="EduNetwork Brand Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1U2C9Jl1-MwdFvI9nR2TBNokI0F-bn3YaDpBozz5qe-j9bQlfUN5uKN9PPJlQB01TLx4Y6lCv3W4xPZFbbiRENjx4b163vduQ6kJmTjoe39B4_aMpC2kfmdgOnrNQAztwwM-EAGnna2VbuhLVQaZSm9o2cUOwabh-QUOYB9Ap0XK9FBpqXJ7lYopEfWgC1fkJNRyYOAhNFgVIDNAQcGDccCCHpPs3pORTM4KC2uBjXpGQ"/>
+<span class="font-title-md text-title-md text-primary tracking-tight">EduNetwork</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-sm">
+Empowering educational institutions with integrated management &amp; effortless admissions.
+</p>
+<div class="flex flex-wrap items-center gap-space-xs pt-space-xs">
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high text-on-surface font-label-sm text-label-sm">Institutional Security</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high text-on-surface font-label-sm text-label-sm">FERPA Compliant</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high text-on-surface font-label-sm text-label-sm">Encrypted Transits</span>
+</div>
+</div>
+<div class="lg:col-span-2 flex flex-col gap-space-md">
+<h4 class="font-label-lg text-label-lg text-primary uppercase tracking-wider">Products</h4>
+<ul class="flex flex-col gap-space-sm">
+<li class="font-body-md text-body-md"><a class="text-on-surface-variant hover:text-on-surface transition-colors" data-path="edunetwork-sis" href="#product-breakdown">EduNetwork SIS</a></li>
+<li class="font-body-md text-body-md"><a class="text-on-surface-variant hover:text-on-surface transition-colors" data-path="clearenroll-verification" href="#clearenroll-details">ClearEnroll Verification</a></li>
+<li class="font-body-md text-body-md"><a class="text-on-surface-variant hover:text-on-surface transition-colors" data-path="financial-clearance" href="#detailed-features">Financial Clearance</a></li>
+<li class="font-body-md text-body-md"><a class="text-on-surface-variant hover:text-on-surface transition-colors" data-path="academic-management" href="#product-breakdown">Academic Management</a></li>
+<li class="font-body-md text-body-md"><a class="text-on-surface-variant hover:text-on-surface transition-colors" data-path="parent-teacher-portal" href="#interactive-showcase">Parent &amp; Teacher Portals</a></li>
+</ul>
+</div>
+<div class="lg:col-span-3 flex flex-col gap-space-md">
+<h4 class="font-label-lg text-label-lg text-primary uppercase tracking-wider">Resources</h4>
+<ul class="flex flex-col gap-space-sm">
+<li class="font-body-md text-body-md"><a class="text-on-surface-variant hover:text-on-surface transition-colors" data-path="product-showcase" href="#interactive-showcase">Product Showcase</a></li>
+<li class="font-body-md text-body-md"><a class="text-on-surface-variant hover:text-on-surface transition-colors" data-path="integration-guide" href="#integration-section">Integration Overview</a></li>
+<li class="font-body-md text-body-md"><a class="text-on-surface-variant hover:text-on-surface transition-colors" data-path="clearance-network" href="#detailed-features">Clearance Network FAQ</a></li>
+<li class="font-body-md text-body-md"><a class="text-on-surface-variant hover:text-on-surface transition-colors" data-path="school-onboarding" href="#demo-inquiry">School Onboarding Guide</a></li>
+</ul>
+</div>
+<div class="lg:col-span-3 flex flex-col gap-space-md">
+<h4 class="font-label-lg text-label-lg text-primary uppercase tracking-wider">Institutional Support</h4>
+<div class="flex flex-col gap-space-xs text-on-surface-variant font-body-sm text-body-sm">
+<span>Phone: 1-800-EDUNET</span>
+<span>Email: demo@edunetwork.io</span>
+<span>ClearEnroll Support: clearance@clearenroll.org</span>
+</div>
+<div class="pt-space-xs flex flex-col gap-space-xs">
+<span class="font-label-md text-label-md text-primary font-semibold">Stay updated on clearance protocols</span>
+<div class="flex gap-space-xs">
+<input class="flex-1 h-11 px-space-sm bg-surface-container-lowest text-on-surface rounded-lg font-body-md text-body-md placeholder:text-outline focus:outline-none focus:ring-2 focus:ring-primary shadow-sm" placeholder="Institutional email" type="email"/>
+<button class="h-11 px-space-md bg-primary hover:bg-primary-container text-on-primary font-label-lg text-label-lg rounded-lg transition-colors focus:outline-none focus:ring-2 focus:ring-primary cursor-pointer" type="button">Subscribe</button>
+</div>
+</div>
+</div>
+</div>
+<div class="pt-margin border-t border-surface-container-high/60 flex flex-col sm:flex-row items-center justify-between gap-space-md text-on-surface-variant font-body-sm text-body-sm">
+<span>© 2025 EduNetwork Inc. &amp; ClearEnroll. All rights reserved.</span>
+<div class="flex flex-wrap items-center gap-space-lg">
+<a class="hover:text-on-surface transition-colors" data-path="privacy-policy" href="#">Privacy Policy</a>
+<a class="hover:text-on-surface transition-colors" data-path="terms-of-service" href="#">Terms of Service</a>
+<a class="hover:text-on-surface transition-colors" data-path="clearance-compliance" href="#">Clearance Security &amp; Compliance</a>
+</div>
+</div>
+</div>
+</footer>
+</body></html>
